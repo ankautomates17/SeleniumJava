@@ -15,7 +15,7 @@ public class LocatorConcept {
 		driver.get("https://scgi.half.ebay.com/ws/eBayISAPI.dll?RegisterEnterInfo&usage=2943&ru=");	//enter url
 		
 		//1. xpath: -- 2
-		//absolute xath should not be used. -- html/body/div[1]/div[5]/div[2]/a 
+		//absolute xpath should not be used. -- html/body/div[1]/div[5]/div[2]/a 
 		//only relative xpath should be used. -- //*[@id='firstname']
 		
 //		driver.findElement(By.xpath("//*[@id='firstname']")).sendKeys("Tom");
